@@ -10,7 +10,7 @@ const nuevoNum = 2373;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5; 
+const nuevaResta = 10 - 5 === 5 ; 
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
@@ -56,7 +56,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-   return x / y 
+    return x / y 
 }
 
 function sonIguales(x, y) {
@@ -101,11 +101,12 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 ===0) 
-return true
+if (num % 2 ===0) 
+  return true 
 else {
-  return false 
+  return false }
 }
+
 
 
 function esImpar(num) {
@@ -113,13 +114,20 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if (num % 2 === 1 ){
+      return true
+    }      
+  else {
+      return false  }  
 }
+
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  var resultado = math.pow (num, 2)
+      return resultado 
 }
 
 function elevarAlCubo(num) {
@@ -137,7 +145,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return Math.round (num)
 }
 
 function redondearHaciaArriba(num) {
@@ -257,4 +265,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+  };

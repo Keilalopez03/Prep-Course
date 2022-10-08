@@ -116,11 +116,10 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   const array = Object.values(arguments)
-  var multiplicarArgumentos = array.reduce((a,b)=> a * b, 1)
+    var multiplicarArgumentos = array.reduce((a,b)=> a * b, 1)
 
-  return multiplicarArgumentos; 
-}
-
+    return multiplicarArgumentos;
+  }
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
